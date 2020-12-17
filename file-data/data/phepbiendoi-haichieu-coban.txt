@@ -1,0 +1,8 @@
+🛑 Các phép biến đổi 2 chiều cơ bản:
+- Phép Tịnh tiến
+- Phép quay
+- Phép Biến đổi tỷ lệ
+- Phép biến đổi nghịch đảo
+- Phép biến đổi hợp
+- Phép đối xứng
+- Phép kéo xiên

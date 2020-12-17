@@ -1,0 +1,150 @@
+version: "2.0"
+# -------------------------------------------------------------INTENTS-----------------------------------------------------
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - game
+  - hocphandohoamaytinh
+# Khái niệm
+  - ask_khainiem_dohoa
+  - ask_khainiem_khonggianmau
+  - ask_khainiem_dohoaconrua
+  - ask_khainiem_dohoadiem
+  - ask_khainiem_dohoavector
+  - ask_khainiem_kythuatdohoa
+  - ask_khainiem_dophangiai
+  - ask_khainiem_thuattoan_tomaudongian
+  - ask_khainiem_thuattoan_tomaudongquet
+  - ask_khainiem_thuattoan_tomauduongbien
+  - ask_khainiem_thuattoan_cathinh
+# Ưu điểm
+  - ask_uudiem_dohoadiem
+  - ask_uudiem_dohoavector
+  - ask_uudiem_tomaudongian
+# Nhược điểm
+  - ask_nhuocdiem_dohoadiem
+  - ask_nhuocdiem_dohoavector
+  - ask_nhuocdiem_tomaudongian
+# So sánh
+  - ask_sosanh_dohoa_diem_vector
+# Ứng dụng
+  - ask_ungdung_kythuatdohoa
+  - ask_ungdung_phepbiendoi_haichieu_coban
+# Quy trình
+  - ask_quytrinh_dohoa
+# Phần mềm
+  - ask_phanmem_dohoadiem
+  - ask_phanmem_dohoavector
+# Nguyên tắc phối màu
+  - ask_nguyentac_phoimau
+# Loại không gian màu
+  - ask_loai_khonggianmau
+  - ask_loai_rgb
+  - ask_loai_hsl
+  - ask_loai_hsv
+  - ask_loai_cmy
+# Chuyển đổi không gian màu
+  - ask_chuyendoi_khonggianmau
+# Các loại hệ tọa độ
+  - ask_loai_hetoado
+# Đối tượng đồ họa cơ sở
+  - ask_loai_doituong_dohoacoso
+# Các thuật toán tô màu
+  - ask_loai_thuattoantomau
+# Phép biến đổi hai chiều cơ bản
+  - ask_phepbiendoi_haichieu_coban
+# Loại thuật toán cắt hình
+  - ask_loai_thuattoan_cathinh
+# -------------------------------------------------------------REPONSES-----------------------------------------------------
+
+
+responses:
+  utter_greet:
+  - text: "Chào bạn, Rất vui được trò chuyện với bạn"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "Tôi tên là botLaravel."
+
+  utter_game:
+  - text: "Đồ họa làm game, phim 3D... được nhé, Bạn có thể tìm ứng dụng của đồ họa máy tính để rõ hơn."
+
+  utter_hocphandohoamaytinh:
+  - text: "Nó là học phần bắt buộc gồm 3 tín chỉ"
+# -------------------------------------------------------------ACTIONS-----------------------------------------------------
+
+actions:
+# Action Khái niệm
+  - act_khainiem_dohoa
+  - act_khainiem_khonggianmau
+  - act_khainiem_dohoaconrua
+  - act_khainiem_dohoadiem
+  - act_khainiem_dohoavector
+  - act_khainiem_kythuatdohoa
+  - act_khainiem_dophangiai
+  - act_khainiem_thuattoan_tomaudongian
+  - act_khainiem_thuattoan_tomaudongquet
+  - act_khainiem_thuattoan_tomauduongbien
+  - act_khainiem_thuattoan_cathinh
+# Action Ưu điểm
+  - act_uudiem_dohoadiem
+  - act_uudiem_dohoavector
+  - act_uudiem_tomaudongian
+# Action Nhược điểm
+  - act_nhuocdiem_dohoadiem
+  - act_nhuocdiem_dohoavector
+  - act_nhuocdiem_tomaudongian
+# Action So sánh
+  - act_sosanh_dohoa_diem_vector
+# Action Ứng dụng
+  - act_ungdung_kythuatdohoa
+  - act_ungdung_phepbiendoi_haichieu_coban
+# Action Quy trình
+  - act_quytrinh_dohoa
+# Action Phần mềm đồ họa điểm
+  - act_phanmem_dohoadiem
+# Action Phần mềm đồ họa vector
+  - act_phanmem_dohoavector
+# Action Nguyên tắc phối màu
+  - act_nguyentac_phoimau
+# Action Loại không gian màu
+  - act_loai_khonggianmau
+  - act_loai_rgb
+  - act_loai_hsl
+  - act_loai_hsv
+  - act_loai_cmy
+# Action Chuyển đổi không gian màu
+  - act_chuyendoi_khonggianmau
+# Action Các loại hệ tọa độ
+  - act_loai_hetoado
+# Action Các đối tượng đồ họa cơ sở
+  - act_loai_doituong_dohoacoso
+# Action Các thuật toán tô màu
+  - act_loai_thuattoantomau
+# Action Phép biến đổi hai chiều cơ bản
+  - act_phepbiendoi_haichieu_coban
+# Action Loại thuật toán cắt hình
+  - act_loai_thuattoan_cathinh
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

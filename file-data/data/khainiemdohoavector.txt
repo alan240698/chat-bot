@@ -1,0 +1,5 @@
+🛑 Kỹ thuật đồ họa vector
+- Kỹ thuật đồ họa hình học/ kỹ thuật đồ họa hướng đối tượng
+- Nguyên lý của kỹ thuật này là xây dựng mô hình hình học cho đối tượng hình ảnh
+- Xác định các thuộc tính của mô hình
+- Dựa trên mô hình để thực hiện tô trát, kết xuất hình ảnh (render), không lưu lại toàn bộ các pixel của hình ảnh tô trát

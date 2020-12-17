@@ -1,0 +1,7 @@
+🔸 Không gian màu HSL:
+
+- Gần với sự cảm nhận các thuộc tính màu sắc của con người hơn không gian RGB
+- 𝐻 (Hue): sắc độ là tọa độ ứng với góc quay
+- (0-3600)
+- 𝑆 (Saturation): độ bão hòa là tọa độ gốc (0-1)
+- 𝐿 (Lightness): độ sáng là trục thẳng đứng (0-1)

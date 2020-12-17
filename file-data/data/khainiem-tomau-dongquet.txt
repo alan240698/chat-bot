@@ -1,0 +1,2 @@
+- Phương pháp này sẽ xác định phần giao của các dòng quét kế tiếp nhau với đường biên của vùng tô. Sau đó, sẽ tiến hành tô màu các điểm thuộc phần giao này.
+- Phương pháp này thường được dùng để tô màu đa giác lồi , lõm hay đa giác tự cắt, đường tròn, ellipse, và một số đường cong đơn giản khác.

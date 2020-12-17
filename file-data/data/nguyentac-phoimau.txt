@@ -1,0 +1,11 @@
+🛑 2 nguyên tắc phối màu
+
+🔸 Nguyên tắc phối màu phát xạ:
+- Là hình thức phối màu sử dụng cho các nguồn sáng sơ cấp
+- Cơ chế của phối màu phát xạ là cộng màu
+- Mô hình màu RGB
+
+🔸 Nguyên tắc phối màu hấp thụ:
+- Là hình thức phối màu sử dụng cho các nguồn sáng thứ cấp
+- Cơ chế của phối màu hấp thụ là trừ màu
+- Mô hình màu CMY

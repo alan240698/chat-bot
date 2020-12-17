@@ -1,0 +1,5 @@
+🔸 Các đối tượng đồ họa cơ sở:
+- Điểm
+- Đoạn thẳng
+- Vùng tô
+- Ký tự

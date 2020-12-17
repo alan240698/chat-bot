@@ -1,0 +1,5 @@
+🔸 Các loại không gian màu:
+▪  Không gian màu RGB – Red Green Blue
+▪  Không gian màu HSL - Hue Saturation Lightness
+▪  Không gian màu HSV - Hue Saturation Value
+▪  Không gian màu CMY - Cyan Magenta Yellow

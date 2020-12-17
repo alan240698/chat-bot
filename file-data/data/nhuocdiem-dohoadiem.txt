@@ -1,0 +1,6 @@
+🔸 Khuyết điểm của kỹ thuật đồ họa điểm
+▪ Không có thông tin về chiều sâu
+▪ Không thể tạo ảnh với những góc nhìn khác nhau
+▪ Phải xử lý trên từng pixel hoặc từng nhóm pixel nên thời gian xử lý sẽ lâu
+▪ Chỉ có thể hiển thị gần đúng với các điểm ảnh trên lưới
+=> hình vẽ bị “răng cưa”

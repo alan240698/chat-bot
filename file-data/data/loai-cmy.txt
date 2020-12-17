@@ -1,0 +1,5 @@
+🔸 Không gian màu CMY:
+- Phối màu hấp thụ: màu sắc tạo ra từ việc trừ ánh sáng trắng với 3 màu Xanh lam, Đỏ hồng và Vàng
+- Sử dụng trong các máy in
+- Mực in màu Đen cải thiện độ sắc nét và chiều sâu của hình ảnh
+- Để tiết kiệm mực thêm thành phần K (mức xám)

@@ -1,0 +1,7 @@
+🛑 Khái niệm không gian màu
+- Không gian màu là những phương pháp định lượng màu sắc được thiết lập công thức một cách khoa học. Hệ thống không gian màu cho phép mỗi màu được xác định theo số học, bằng cách đó ta có thể chọn và lặp lại những màu nào đó thật chính xác. Bạn sẽ tiếp xúc với những không gian màu chính sau đây: HLS (sắc thái, quang độ và độ bão hòa), HSB (sắc thái, độ bão hòa và độ đậm nhạt), RGB (đỏ, lục, lam) và CYMK (xanh hóa học, vàng, tím sen, đen).
+- CMYK là không gian màu được sử dụng trong công nghiệp in ấn và bị giới hạn bởi mức độ thể hiện của mực in và chất màu. Không gian RGB - hệ thống màu thường gặp nhất trong nghệ thuật nhiếp ảnh số - sử dụng ánh sáng, do vậy cho ta phổ màu rộng hơn các chất màu CYMK. Điều quan trọng là bạn phải lưu ý sự khác biệt giữa những hệ thống màu mà bạn đang làm việc với những biến đổi màu có thể sẽ xảy ra giữa màn hình hiển thị và kết xuất in ấn.
+- Phát sinh dựa trên bộ phát sinh màu phần cứng, dựa trên sự cảm nhận màu sắc của mắt người
+- Sử dụng không gian màu tuỳ theo mục đích:
+- Hiển thị trên màn hình CRT, máy chụp hình kỹ thuật số, máy scan (RGB - Red Green Blue - mô hình màu cộng)
+- Sử dụng trong công nghiệp in (CMYK - mô hình trừ màu)

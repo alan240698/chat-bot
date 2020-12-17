@@ -1,0 +1,3 @@
+🔸 Nhược điểm kỹ thuật đồ họa vector
+
+▪ nhìn không thật, sự chuyển màu, sắc độ ít tinh tế hơn ảnh bitmap.

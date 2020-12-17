@@ -1,0 +1,7 @@
+🔸 Ưu điểm kỹ thuật đồ họa vector
+
+▪ Chỉ lưu trữ mô hình toán học của các thành phần trong mô hình hình học và các thuộc tính tương ứng.
+▪ Không cần lưu toàn bộ các pixel của hình ảnh đối tượng.
+▪ Ảnh vector có thể kéo to nhỏ tùy ý mà không bị vỡ, các đường viền cũng không bị răng cưa. Dữ liệu có trong ảnh vector ít hơn ảnh bitmap, do đó ít tốn dung lượng lưu trữ hơn.
+▪ Khi tạo và chỉnh sửa ảnh vector, có thể thực hiện các thao tác như: xoay, lật, kéo giãn, tô màu và tô màu chuyển sắc, dùng nhiều lớp hình ảnh, thay đổi độ trong suốt của hình; đồng thời cắt, nối, cắt phần giao nhau và thực hiện nhiều thao tác khác.
+▪ Người ta có thể thay đổi hình dạng của ảnh bằng cách thêm, bớt, xoay, di chuyển các điểm mút

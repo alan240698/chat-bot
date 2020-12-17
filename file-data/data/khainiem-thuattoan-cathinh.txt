@@ -1,0 +1,6 @@
+- Cắt hình (clipping) là các thuật toán dùng để loại bỏ các phần hình ảnh nằm bên ngoài biên cửa sổ
+- Trong phần này, việc cắt hình được thực hiện trong hệ tọa độ thế giới thực (dựa vào đường biên cửa sổ), sau đó các điểm bên trong cửa sổ mới được ánh xạ đến vùng quan sát
+- Một điểm nằm trong cửa sổ nếu:
+		xwmin ≤ x ≤ xwmax
+		ywmin ≤ y ≤ ywmax
+- Một điểm không thỏa điều kiện trên sẽ bị cắt bỏ (Clipping)

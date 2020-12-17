@@ -1,0 +1,4 @@
+🔸 Các loại thuật toán tô màu:
+- Tô màu đơn giản
+- Tô màu dựa theo dòng quét
+- Tô màu dựa theo đường biên

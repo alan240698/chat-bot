@@ -1,0 +1,3 @@
+🛑 Turtle Graphics
+
+Turtle Graphics là một chương trình con có sẵn trong Python khi bạn đã cài Python lên máy bạn. Turtle (con rùa) đây chỉ là hình ảnh tưởng tượng, nó cầm cây bút để vẽ, di chuyển đến đâu là nó vẽ đường thẳng đến đó. Nó vẽ bằng những cái chấm (dots-pixels) trên màn hình.

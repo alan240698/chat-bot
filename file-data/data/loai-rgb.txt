@@ -1,0 +1,6 @@
+🔸 Màu sắc khác nhau được tạo ra từ 3 màu cơ bản: Đỏ, Xanh lá, Xanh dương
+- Đỏ + Xanh lá = Vàng
+- Đỏ + Xanh dương = Đỏ hồng
+- Xanh dương + Xanh lá = Xanh lam
+- Đỏ + Xanh dương + Xanh lá = Trắng
+- Không có đèn = Đen

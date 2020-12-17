@@ -1,0 +1,198 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+# KHÁI NIỆM----------------------------------------------------------------------------------------------------------------
+# Đồ họa máy tính
+- rule: khai niem do hoa may tinh
+  steps:
+  - intent: ask_khainiem_dohoa
+  - action: act_khainiem_dohoa
+# Không gian màu
+- rule: khai niem khong gian mau
+  steps:
+  - intent: ask_khainiem_khonggianmau
+  - action: act_khainiem_khonggianmau
+# Đồ họa con rùa
+- rule: khai niem do hoa con rua
+  steps:
+  - intent: ask_khainiem_dohoaconrua
+  - action: act_khainiem_dohoaconrua
+# Đồ họa điểm
+- rule: khai niem do hoa diem
+  steps:
+  - intent: ask_khainiem_dohoadiem
+  - action: act_khainiem_dohoadiem
+# Đồ họa vector
+- rule: khai niem do hoa vector
+  steps:
+  - intent: ask_khainiem_dohoavector
+  - action: act_khainiem_dohoavector
+# Kỹ thuật đồ họa
+- rule: cac ky thuat do hoa
+  steps:
+  - intent: ask_khainiem_kythuatdohoa
+  - action: act_khainiem_kythuatdohoa
+# Độ phân giải
+- rule: khai niem do phan giai
+  steps:
+  - intent: ask_khainiem_dophangiai
+  - action: act_khainiem_dophangiai
+# Tô màu đơn giản
+- rule: khai niem to mau don gian
+  steps:
+  - intent: ask_khainiem_thuattoan_tomaudongian
+  - action: act_khainiem_thuattoan_tomaudongian
+# Tô màu dòng quét
+- rule: khai niem to mau dong quet
+  steps:
+  - intent: ask_khainiem_thuattoan_tomaudongquet
+  - action: act_khainiem_thuattoan_tomaudongquet
+# Tô màu đường biên
+- rule: khai niem to mau duong bien
+  steps:
+  - intent: ask_khainiem_thuattoan_tomauduongbien
+  - action: act_khainiem_thuattoan_tomauduongbien
+# Thuật toán cắt hình
+- rule: khai niem thuat toan cat hinh
+  steps:
+  - intent: ask_khainiem_thuattoan_cathinh
+  - action: act_khainiem_thuattoan_cathinh
+# ƯU ĐIỂM----------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- rule: uu diem do hoa diem
+  steps:
+  - intent: ask_uudiem_dohoadiem
+  - action: act_uudiem_dohoadiem
+# Đồ họa vector
+- rule: uu diem do hoa vector
+  steps:
+  - intent: ask_uudiem_dohoavector
+  - action: act_uudiem_dohoavector
+# Tô màu đơn giản
+- rule: uu diem to mau don gian
+  steps:
+  - intent: ask_uudiem_tomaudongian
+  - action: act_uudiem_tomaudongian
+# NHƯỢC ĐIỂM----------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- rule: nhuoc diem diem do hoa diem
+  steps:
+  - intent: ask_nhuocdiem_dohoadiem
+  - action: act_nhuocdiem_dohoadiem
+# Đồ họa vector
+- rule: nhuoc diem diem do hoa vector
+  steps:
+  - intent: ask_nhuocdiem_dohoavector
+  - action: act_nhuocdiem_dohoavector
+# Tô màu đơn giản
+- rule: nhuoc diem to mau don gian
+  steps:
+  - intent: ask_nhuocdiem_tomaudongian
+  - action: act_nhuocdiem_tomaudongian
+
+# SO SÁNH----------------------------------------------------------------------------------------------------------------
+# Đồ họa vector
+- rule: so sanh do hoa diem va do hoa vecto
+  steps:
+  - intent: ask_sosanh_dohoa_diem_vector
+  - action: act_sosanh_dohoa_diem_vector
+# ỨNG DỤNG----------------------------------------------------------------------------------------------------------------
+# Kỹ thuật đồ họa
+- rule: ung dung ky thuat do hoa
+  steps:
+  - intent: ask_ungdung_kythuatdohoa
+  - action: act_ungdung_kythuatdohoa
+# Phép biến đổi 2 chiều cơ bản
+- rule: ung dung phep bien doi 2 chieu co ban
+  steps:
+  - intent: ask_ungdung_phepbiendoi_haichieu_coban
+  - action: act_ungdung_phepbiendoi_haichieu_coban
+# QUY TRÌNH----------------------------------------------------------------------------------------------------------------
+# Quy trình đồ họa
+- rule: quy trinh do hoa
+  steps:
+  - intent: ask_quytrinh_dohoa
+  - action: act_quytrinh_dohoa
+# PHẦN MỀM----------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- rule: phan mem do hoa diem
+  steps:
+  - intent: ask_phanmem_dohoadiem
+  - action: act_phanmem_dohoadiem
+# Đồ họa vector
+- rule: phan mem do hoa vector
+  steps:
+  - intent: ask_phanmem_dohoavector
+  - action: act_phanmem_dohoavector
+# NGUYÊN TẮC PHỐI MÀU----------------------------------------------------------------------------------------------------------------
+- rule: nguyen tac phoi mau
+  steps:
+  - intent: ask_nguyentac_phoimau
+  - action: act_nguyentac_phoimau
+# CÁC LOẠI KHÔNG GIAN MÀU----------------------------------------------------------------------------------------------------------------
+- rule: cac loai khong gian mau
+  steps:
+  - intent: ask_loai_khonggianmau
+  - action: act_loai_khonggianmau
+# Rgb
+- rule: khong gian mau rgb
+  steps:
+  - intent: ask_loai_rgb
+  - action: act_loai_rgb
+  # Hsl
+- rule: khong gian mau hsl
+  steps:
+  - intent: ask_loai_hsl
+  - action: act_loai_hsl
+  # Hsv
+- rule: khong gian mau hsv
+  steps:
+  - intent: ask_loai_hsv
+  - action: act_loai_hsv
+# Cmy
+- rule: khong gian mau cmy
+  steps:
+  - intent: ask_loai_cmy
+  - action: act_loai_cmy
+
+# CHUYỂN ĐỔI KHÔNG GIAN MÀU---------------------------------------------------------------------------------------------
+- rule: chuyen doi khong gian mau
+  steps:
+  - intent: ask_chuyendoi_khonggianmau
+  - action: act_chuyendoi_khonggianmau
+# CÁC HỆ TỌA ĐỘ---------------------------------------------------------------------------------------------
+- rule: cac he toa do
+  steps:
+  - intent: ask_loai_hetoado
+  - action: act_loai_hetoado
+# CÁC ĐỐI TƯỢNG ĐỒ HỌA CƠ SỞ---------------------------------------------------------------------------------------------
+- rule: cac doi tuong do hoa co so
+  steps:
+  - intent: ask_loai_doituong_dohoacoso
+  - action: act_loai_doituong_dohoacoso
+# CÁC THUẬT TOÁN TÔ MÀU ĐƠN GIẢN---------------------------------------------------------------------------------------------
+- rule: cac thuat toan to mau
+  steps:
+  - intent: ask_loai_thuattoantomau
+  - action: act_loai_thuattoantomau
+# PHÉP BIẾN ĐỔI HAI CHIỀU CƠ BẢN---------------------------------------------------------------------------------------------
+- rule: phep bien doi 2 chieu co ban
+  steps:
+  - intent: ask_phepbiendoi_haichieu_coban
+  - action: act_phepbiendoi_haichieu_coban
+# CÁC LOẠI THUẬT TOÁN CẮT HÌNH---------------------------------------------------------------------------------------------
+- rule: cac loai thuat toan cat hinh
+  steps:
+  - intent: ask_loai_thuattoan_cathinh
+  - action: act_loai_thuattoan_cathinh

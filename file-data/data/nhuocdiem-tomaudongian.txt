@@ -1,0 +1,1 @@
+Tốc độ tô màu rất chậm do phải xét 1 điểm có thuộc đa giác hay không đối với từng điểm của hình chữ nhật.

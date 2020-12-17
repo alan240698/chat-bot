@@ -1,0 +1,7 @@
+🔸 Không gian màu HSV:
+- Biến đổi khác của không gian RGB,
+- Được sử dụng nhiều trong việc chỉnh sửa ảnh, phân tích ảnh và một phần của thị giác máy tính
+- Mô hình không gian màu HSV là khối lập phương RGB quay trên đỉnh Black
+- Sắc độ 𝐻 là góc quay quanh trục Values (0-3600)
+- Độ bão hòa 𝑆 đi từ 0 đến 1
+- Trục  𝑉 (Values) giá trị cường độ sáng (0 - 1), tương ứng với đường chéo nối đỉnh White và Black

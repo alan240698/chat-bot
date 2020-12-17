@@ -1,0 +1,1 @@
+- Bắt đầu từ một điểm nằm bên trong vùng tô, kiểm tra các điểm lân cận của nó đã được tô với màu muốn tô, hay điểm lân cận có màu trùng với màu biên không ? Nếu cả hai trường hợp đều không phải thì ta sẽ tô điểm đó với màu muốn tô. Quá trình này được lặp lại cho đến khi không còn tô được nữa thì dừng 

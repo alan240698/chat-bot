@@ -1,0 +1,4 @@
+🛑  Các kỹ thuật đồ họa
+- Dựa vào phương pháp xử lý dữ liệu trong hệ thống 2 kỹ thuật đồ họa hiện có là
++ Đồ họa điểm
++ Đồ họa vector

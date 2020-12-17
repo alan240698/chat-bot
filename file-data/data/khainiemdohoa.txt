@@ -1,0 +1,3 @@
+🦠 Khái niệm đồ họa máy tính
+
+- Đồ họa máy tính là một lĩnh vực của khoa học máy tính nghiên cứu về cơ sở toán học, các thuật toán cũng như các kĩ thuật để cho phép tạo, hiển thị và điều khiển hình ảnh trên màn hình máy tính.

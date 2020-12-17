@@ -1,0 +1,1 @@
+Thuật toán này bắt đầu từ việc xác định một điểm có thuộc vùng cần tô hay không ? Nếu đúng là điểm thuộc vùng cần tô thì sẽ tô với màu muốn tô.

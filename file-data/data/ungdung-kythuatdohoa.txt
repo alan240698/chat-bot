@@ -1,0 +1,16 @@
+🔸 Ứng dụng của kỹ thuật đồ họa
+
+▪ Thiết kế: vẽ các kiến trúc thiết kế - các thiết bị cơ khí, điện tử, ôtô, máy bay,…
+
+▪ Tạo biểu đồ: hiển thị trực quan – trong kinh doanh, khoa học và công nghệ
+
+▪ Mô phỏng: tạo ra các mô hình để mô phỏng đối tượng
+
+▪ Các mô hình toán học của các hiện tượng như dòng chảy, phản ứng hạt nhân, mô hình lái máy bay, các cơ quan chức năng, cấu trúc tế bào, ghen, phân tử,…
+
+▪ Giải trí: game 2D, 3D
+
+▪ Điện ảnh (kỹ xảo, hiệu ứng, phim hoạt hình, …)
+
+▪ Nghệ thuật và thương mại: tạo ra các hình ảnh thể hiện thông báo và thu hút sự chú ý
+=> tạo các quảng cáo hấp dẫn

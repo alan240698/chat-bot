@@ -1,0 +1,340 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - xin chào
+    - xin chao
+    - chào bot
+    - chào botLaravel
+    - chào bạn
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tạm biệt
+    - chào tạm biệt
+    - bái bai
+    - see you again
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - tên của bạn là gì?
+    - name
+    - your name
+    - tên của bạn
+
+- intent: game
+  examples: |
+    - đồ họa máy tính có làm game không?
+    - làm game từ đồ họa được không?
+    - sau khi học môn này em có thể làm phim hay không ?
+    - có làm phim 3d được không
+    - có làm phim được không
+
+- intent: hocphandohoamaytinh
+  examples: |
+    - đồ họa máy tính có bắt buộc?
+    - học phần đồ họa máy tính có bắt buộc?
+    - đồ họa máy tính bao nhiêu tín chỉ?
+    - học phần đồ họa máy tính bao nhiêu tín chỉ?
+    - tín chỉ đồ họa máy tính
+
+# KHÁI NIỆM--------------------------------------------------------------------------------------------------------------
+# Đồ họa máy tính
+- intent: ask_khainiem_dohoa
+  examples: |
+    - thế nào là đồ họa máy tính?
+    - khái niệm đồ họa máy tính?
+# Không gian màu
+- intent: ask_khainiem_khonggianmau
+  examples: |
+    - không gian màu là gì?
+    - khái niệm không gian màu?
+
+# Đồ họa con rùa
+- intent: ask_khainiem_dohoaconrua
+  examples: |
+    - đồ họa con rùa là gì?
+    - đồ họa con rùa
+    - thế nào là đồ họa con rùa?
+    - Turtle Graphics
+    - Turtle Graphics là gì?
+# Kỹ thuật đồ họa điểm
+- intent: ask_khainiem_dohoadiem
+  examples: |
+    - đồ họa điểm là gì?
+    - thế nào là đồ họa điểm?
+    - kỹ thuật đồ họa điểm là gì?
+# Kỹ thuật đồ họa vector
+- intent: ask_khainiem_dohoavector
+  examples: |
+    - đồ họa vector là gì?
+    - thế nào là đồ họa vector?
+    - kỹ thuật đồ họa vector là gì?
+# Kỹ thuật đồ họa
+- intent: ask_khainiem_kythuatdohoa
+  examples: |
+    - các kỹ thuật đồ họa?
+    - có mấy kỹ thuật đồ họa
+# Độ phân giải
+- intent: ask_khainiem_dophangiai
+  examples: |
+    - độ phân giải là gì?
+    - độ phân giải
+    - thế nào là độ phân giải?
+# Tô màu đơn giản
+- intent: ask_khainiem_thuattoan_tomaudongian
+  examples: |
+    - tô màu đơn giản là gì?
+    - thế nào là tô màu đơn giản?
+# Tô màu dòng quét
+- intent: ask_khainiem_thuattoan_tomaudongquet
+  examples: |
+    - tô màu dòng quét là gì?
+    - tô màu dòng quét
+    - thế nào là tô màu dòng quét?
+# Tô màu đường biên
+- intent: ask_khainiem_thuattoan_tomauduongbien
+  examples: |
+    - tô màu đường biên là gì?
+    - tô màu đường biên
+    - thế nào là tô màu đường biên?
+# Thuật toán cắt hình
+- intent: ask_khainiem_thuattoan_cathinh
+  examples: |
+    - cắt hình là gì?
+    - thuật toán cắt hình là gì
+# ƯU ĐIỂM --------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- intent: ask_uudiem_dohoadiem
+  examples: |
+    - ưu điểm đồ họa điểm là gì?
+    - điểm mạnh đồ họa điểm
+# Đồ họa vector
+- intent: ask_uudiem_dohoavector
+  examples: |
+    - ưu điểm đồ họa vector là gì?
+    - điểm mạnh đồ họa vector
+# Tô màu đơn giản
+- intent: ask_uudiem_tomaudongian
+  examples: |
+    - ưu điểm tô màu đơn giản
+    - điểm mạnh của tô màu đơn giản
+# NHƯỢC ĐIỂM --------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- intent: ask_nhuocdiem_dohoadiem
+  examples: |
+    - nhược điểm đồ họa điểm là gì?
+    - điểm yếu đồ họa điểm
+# Đồ họa vector
+- intent: ask_nhuocdiem_dohoavector
+  examples: |
+    - nhược điểm đồ họa vector là gì?
+    - điểm yếu đồ họa vector
+# Tô màu đơn giản
+- intent: ask_nhuocdiem_tomaudongian
+  examples: |
+    - nhược điểm của tô màu đơn giản
+
+# SO SÁNH --------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm và đồ họa vector
+- intent: ask_sosanh_dohoa_diem_vector
+  examples: |
+    - phân biệt đồ họa điểm và đồ họa vector?
+    - so sánh đồ họa điểm và đồ họa vector?
+    - giống nhau đồ họa điểm và đồ họa vector?
+    - khác nhau đồ họa điểm và đồ họa vector?
+
+# ỨNG DỤNG --------------------------------------------------------------------------------------------------------------
+# Kỹ thuật đồ họa
+- intent: ask_ungdung_kythuatdohoa
+  examples: |
+    - các ứng dụng kỹ thuật đồ họa
+    - ứng dụng đồ họa máy tính
+
+- intent: ask_ungdung_phepbiendoi_haichieu_coban
+  examples: |
+    - ứng dụng các phép biến đổi 2 chiều cơ bản
+    - ứng dụng các phép biến đổi hai chiều cơ bản
+    - ứng dụng phép biến đổi hai chiều
+    - ứng dụng biến đổi 2 chiều
+    - ứng dụng biến đổi hai chiều
+# QUY TRÌNH --------------------------------------------------------------------------------------------------------------
+# Quy trình đồ họa
+- intent: ask_quytrinh_dohoa
+  examples: |
+    - quy trình đồ họa là gì?
+    - quy trình đồ họa
+    - các quy trình đồ họa
+# PHẦN MỀM --------------------------------------------------------------------------------------------------------------
+# Đồ họa điểm
+- intent: ask_phanmem_dohoadiem
+  examples: |
+    - phần mềm đồ họa điểm
+# Đồ họa vector
+- intent: ask_phanmem_dohoavector
+  examples: |
+    - phần mềm đồ họa vector
+
+# NGUYÊN TẮC PHỐI MÀU---------------------------------------------------------------------------------------------------
+- intent: ask_nguyentac_phoimau
+  examples: |
+    - các nguyên tắc phối màu
+    - nguyên tắc phối màu
+    - cách phối màu
+    - phối màu
+    - phối màu như thế nào?
+    - làm sao để phối màu
+# CÁC LOẠI KHÔNG GIAN MÀU---------------------------------------------------------------------------------------------------
+- intent: ask_loai_khonggianmau
+  examples: |
+    - các loại không gian màu
+    - có mấy loại không gian màu
+# RGB
+- intent: ask_loai_rgb
+  examples: |
+    - không gian màu rgb
+    - rgb
+    - màu rgb
+# HSL
+- intent: ask_loai_hsl
+  examples: |
+    - không gian màu hsl
+    - hsl
+    - màu hsl
+# HSV
+- intent: ask_loai_hsv
+  examples: |
+    - không gian màu hsv
+    - hsv
+    - màu hsv
+# CMY
+- intent: ask_loai_cmy
+  examples: |
+    - không gian màu cmy
+    - cmy
+    - màu cmy
+# CHUYỂN ĐỔI KHÔNG GIAN MÀU---------------------------------------------------------------------------------------------------
+- intent: ask_chuyendoi_khonggianmau
+  examples: |
+    - chuyển đổi không gian màu
+    - cách chuyển đổi không gian màu
+# CÁC HỆ TỌA ĐỘ---------------------------------------------------------------------------------------------------
+- intent: ask_loai_hetoado
+  examples: |
+    - hệ tọa độ
+    - các hệ tọa độ
+    - có mấy hệ tọa độ
+# CÁC ĐỐI TƯỢNG ĐỒ HỌA CƠ SỞ---------------------------------------------------------------------------------------------------
+- intent: ask_loai_doituong_dohoacoso
+  examples: |
+    - các đối tượng đồ họa cơ sở
+    - đối tượng đồ họa cơ sở
+    - có mấy đối tượng đồ họa cơ sở
+# CÁC THUẬT TOÁN TÔ MÀU---------------------------------------------------------------------------------------------------
+- intent: ask_loai_thuattoantomau
+  examples: |
+    - các thuật toán tô màu
+    - có mấy thuật toán tô màu
+    - các loại thuật toán tô màu
+    - loại thuật toán tô màu
+    - có mấy loại thuật toán tô màu
+# PHÉP BIẾN ĐỔI HAI CHIỀU CƠ BẢN---------------------------------------------------------------------------------------------------
+- intent: ask_phepbiendoi_haichieu_coban
+  examples: |
+    - các phép biến đổi 2 chiều cơ bản
+    - các phép biến đổi hai chiều cơ bản
+    - phép biến đổi hai chiều
+    - biến đổi 2 chiều
+    - biến đổi hai chiều
+# CÁC LOẠI THUẬT TOÁN CẮT HÌNH---------------------------------------------------------------------------------------------------
+- intent: ask_loai_thuattoan_cathinh
+  examples: |
+    - các loại thuật toán cắt hình
+    - loại thuật toán cắt hình
+    - có bao nhiêu loại thuật toán cắt hình
+    - có mấy loại thuật toán cắt hình
+    - loại thuật toán cắt hình có bao nhiêu loại
+    - các thuật toán cắt hình

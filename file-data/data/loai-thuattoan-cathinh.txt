@@ -1,0 +1,4 @@
+🛑 Các loại thuật toán cắt hình:
+- Thuật toán Cohen-Sutherland
+- Thuật toán Liang-Barsky
+- Thuật toán cắt xén đa giác

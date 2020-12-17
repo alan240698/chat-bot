@@ -1,0 +1,5 @@
+🔸 Ưu điểm kỹ thuật đồ họa điểm
+
+▪ Dễ dàng thay đổi thông tin của ảnh bằng cách thay đổi giá trị của các điểm ảnh
+
+▪ Dễ dàng sao chép thông tin từ ảnh này sang 1 ảnh khác

@@ -1,0 +1,4 @@
+🔸 Ứng dụng:
+- Tạo khung cảnh 3D, tạo đối tượng phức tạp  từ những đối tượng đơn giản
+- Nhìn khung cảnh ở những góc nhìn khác nhau bằng cách thay đổi hướng, vị trí của camera
+- Tạo hoạt hình bằng cách di chuyển và quay hệ tọa độ riêng của từng đối tượng

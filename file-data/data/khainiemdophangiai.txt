@@ -1,0 +1,4 @@
+🛑 Độ phân giải
+- Độ phân giải hiển thị (display resolution)/độ phân giải điểm ảnh: số lượng điểm ảnh (pixel) phân biệt có thể hiển thị trên mỗi chiều.
+- Quy ước: độ phân giải màn hình là M cột x N dòng
+- Ví dụ: độ phân giải 1024 x 768

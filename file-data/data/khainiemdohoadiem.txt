@@ -1,0 +1,6 @@
+🛑 Kỹ thuật đồ họa điểm
+
+- Hình ảnh được hiển thị thông qua từng mẫu pixel rời rạc
+- Mỗi pixel đều có một vị trí xác định và được hiển thị với một giá trị nguyên biểu diễn màu sắc hoặc độ sáng của pixel đó
+- Tạo, xóa hoặc thay đổi thuộc tính của từng pixel của các đối tượng
+- Các hình ảnh được hiển thị như một lưới các điểm pixels rời rạc
